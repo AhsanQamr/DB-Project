@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OneStop", ".", "{4EF06A58-F12A-45AE-BC9D-436BD7EF33F6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54876"
+		Debug.AspNetCompiler.PhysicalPath = "..\OneStop\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54876\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54876"
+		Release.AspNetCompiler.PhysicalPath = "..\OneStop\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54876\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54876"
+		SlnRelativePath = "..\OneStop\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF06A58-F12A-45AE-BC9D-436BD7EF33F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF06A58-F12A-45AE-BC9D-436BD7EF33F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E490BE7-98EA-40C3-992F-A0364A9793F1}
+	EndGlobalSection
+EndGlobal
