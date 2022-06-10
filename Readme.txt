@@ -4,7 +4,7 @@ ABOUT PROJECT
 
 Degree Clearance website is made using ASP.NET , C# and sql for the Database Layer.
 This project was made on IDE Visual Studio 2022 and uses SSMS (sql server management studio)
-for the Sql Server.
+for the Sql and Database Layer.
 
 -----------------------------------------
 
