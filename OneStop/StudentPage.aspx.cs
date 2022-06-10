@@ -23,31 +23,36 @@ public partial class StudentPage : System.Web.UI.Page
         {
             Label1.ForeColor = System.Drawing.Color.Red;
             Label1.Text = "Required";
+            return;
         }
         if (String.IsNullOrEmpty(TextBox4.Text))
         {
             Label2.ForeColor = System.Drawing.Color.Red;
             Label2.Text = "Required";
+            return ;
         }
         if (String.IsNullOrEmpty(TextBox3.Text))
         {
             Label3.ForeColor = System.Drawing.Color.Red;
             Label3.Text = "Required";
+            return;
         }
         if (String.IsNullOrEmpty(TextBox11.Text))
         {
             Label4.ForeColor = System.Drawing.Color.Red;
             Label4.Text = "Required";
+            return;
         }
         if (String.IsNullOrEmpty(TextBox16.Text))
         {
             Label5.ForeColor = System.Drawing.Color.Red;
             Label5.Text = "Required";
+            return;
         }
         
         Random random = new Random();
-        int random_number = random.Next(10, 400);
-        DateTime now = DateTime.UtcNow.Date;
+        int random_number = random.Next(10, 400); // token generate
+        DateTime now = DateTime.UtcNow.Date; // date time generate
         Console.WriteLine(now);  // just for seeing the result
         SqlConnection sqlConnection = new SqlConnection("Data Source=DESKTOP-0JP7NF9\\SQLEXPRESS;Initial Catalog=DBProject;Integrated Security=True");
         sqlConnection.Open();

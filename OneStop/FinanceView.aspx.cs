@@ -194,7 +194,7 @@ public partial class FinanceView : System.Web.UI.Page
 
         SqlCommand sqlCommand;
 
-        String query = "UPDATE REQUEST SET Req_stat = CASE WHEN Req_stat='Fyp Clear' THEN 'Finances+Fyp Clear' ELSE 'Finances Clear' END from STUDENT INNER JOIN REQUEST ON REQUEST.St_roll=STUDENT.RollNo WHERE STUDENT.RollNo = '" + rollno + "'";
+        String query = "UPDATE REQUEST SET Req_stat = CASE WHEN Req_stat='Fyp Clear' THEN 'Finances+Fyp Clear' WHEN Req_stat = 'Fyp not clear' THEN 'Finances clear, Fyp not clear' ELSE 'Finances Clear' END from STUDENT INNER JOIN REQUEST ON REQUEST.St_roll=STUDENT.RollNo WHERE STUDENT.RollNo = '" + rollno + "'";
         sqlCommand = new SqlCommand(query, sqlConnection);
         sqlCommand.ExecuteNonQuery();
         sqlCommand.Dispose();

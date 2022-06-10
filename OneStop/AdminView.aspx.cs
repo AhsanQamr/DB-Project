@@ -216,8 +216,17 @@ public partial class AdminView : System.Web.UI.Page
         {
             rollno = Request.Cookies["RollNo"].Value.ToString();
         }
-        string financeresp = Session["financeresp"].ToString();
-        string fypresp = Session["fypresp"].ToString();
+        string fypresp="", financeresp="";
+        if (Session["financeresp"] != null)
+        {
+             financeresp = Session["financeresp"].ToString();
+        }
+        if (Session["fypresp"] != null)
+        {
+             fypresp = Session["fypresp"].ToString();
+        }
+        
+        
         string adminresp = Session["adminresp"].ToString();
         SqlCommand sqlCommand;
 
